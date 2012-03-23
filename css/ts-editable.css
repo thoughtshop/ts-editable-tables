@@ -1,0 +1,22 @@
+/* Editable */
+.editable { border: 3px solid transparent; -webkit-border-radius: 6px; cursor: pointer; }
+.content .editable { padding: 3px; position: relative; top: -6px; left: -6px; width: 100%; margin-bottom: -6px !important; }
+.editable:hover,
+.editing { border: 3px #7D7D7D dotted; }
+.editing { cursor: auto !important; z-index: 500 !important;}
+.editing textarea { min-width: 98%; min-height: 50px; }
+.section .editing { background-color: #fff; }
+#ts-editable-toolbox { z-index: 999; position: absolute; border: 1px solid #666; padding: 10px; height: 20px; background: #7E8082 url('images/content_topnav.png') top center repeat-x; margin-top: -44px; }
+#ts-editable-toolbox button { display: inline-block; border: none; padding: 4px 5px; background-color: #ccc; color: #000; -webkit-border-radius: 3px; cursor: pointer;margin-right: 2px; }
+#ts-editable-toolbox button.loading { color: #ccc; }
+#ts-editable-toolbox button:hover { background-color: #B8B8B8; }
+#ts-editable-toolbox.fixedscroll { position: fixed; top: 78px !important; }
+#ts-editable-toolbox button.ts-editable-bold { font-weight: bold; }
+#ts-editable-toolbox button.ts-editable-italic { font-style: italic; }
+#ts-editable-toolbox button.ts-editable-link { text-decoration: underline; }
+#ts-editable-toolbox button.ts-editable-cancel { float: right; }
+#ts-editable-toolbox button.ts-editable-save { float: right; }
+#ts-editable-toolbox button.ts-editable-red,
+#ts-editable-toolbox button.ts-editable-grey { width: 21px; height: 21px; overflow: hidden; text-indent: -9999px; background-color: #033167; margin: 0 4px 0 0; }
+#ts-editable-toolbox button.ts-editable-grey { background-color: #6A6C70; }
+#ts_editable_raw_dialog textarea { width: 473px; height: 300px; }

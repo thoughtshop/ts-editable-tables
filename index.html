@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TS Table Editor</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/ts-editable.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ts-editable.js"></script>
+    <script type="text/javascript" src="js/jquery.ts-editable-table.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("#edit_me").tsEditable();
+        // $("#test-table, #test-table2").tsEditableTable();
+      })
+    </script>
+
+    <style type="text/css" media="screen">
+      .table-editable td,
+      .table-editable th { height: 18px; line-height: 18px; }
+      .table-editable .select-column td,
+      .table-editable .select-row { background-color: #e5e5e5; height: 28px; padding: 0; cursor: s-resize; }
+      .table-editable .select-column td:hover,
+      .table-editable .select-row:hover { background-color: #999; } 
+      .table-editable .select-row { width: 26px; cursor: e-resize; }
+      .table-editable .selected { background-color: #2f96b4; }
+      .table-editable .select-column .selected,
+      .table-editable .select-column .selected:hover,
+      .table-editable tr:hover .selected { background-color: #24748c; }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>TS Editable - Tables</h1>
+      </div>
+
+      <div class="well">
+        Todos:
+        <ul>
+          <li>
+            none
+          </li>
+        </ul>
+      </div>
+
+      <div id="edit_me">
+        <h1>asdfasdf</h1>
+        <p>asdfasdl fkjasdlfk aj sdflkajsd flkasjd flaksdjf lkj </p>
+        <table class="table table-bordered table-editable" id="test-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-bordered table-editable" id="test-table2">
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
