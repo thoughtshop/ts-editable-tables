@@ -11,11 +11,11 @@ easily be modified to use independantly or with another editor.
 
 ##Dependencies
 Required:
-- jQuery
-- jQuery UI
+-   jQuery
+-   jQuery UI
 
 Nice to have:
-- Twitter Bootstrap
+-   Twitter Bootstrap
 
 ##Browser Support
 Currently tested in Chrome and Safari.
