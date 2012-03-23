@@ -10,12 +10,9 @@ easily be modified to use independantly or with another editor.
 <http://tseditor.preview.thoughtshop.com>
 
 ##Dependencies
-Required:
--   jQuery
--   jQuery UI
-
-Nice to have:
--   Twitter Bootstrap
+* jQuery
+* jQuery UI
+* Twitter Bootstrap (nice to have)
 
 ##Browser Support
 Currently tested in Chrome and Safari.
